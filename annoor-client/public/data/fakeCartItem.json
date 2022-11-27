@@ -1,0 +1,44 @@
+[
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "category": "Food",
+    "name": "LITE RACER ADAPT 3.0 SHOES",
+    "subtext": "each",
+    "price": 229,
+    "stock": 10,
+    "ratings": 5,
+    "ratingsCount": 1764,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
+    "shipping": 32,
+    "quantity": 5,
+    "details": "This is demo details for a particular product"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "category": "Food",
+    "name": "4DFWD SHOES",
+    "subtext": "1 kg",
+    "price": 287,
+    "stock": 11,
+    "ratings": 4,
+    "ratingsCount": 799,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c5d1994dfd343e28567ad4400dd351d_9366/4DFWD_Shoes_Black_Q46447_01_standard.jpg",
+    "shipping": 49,
+    "quantity": 2,
+    "details": "This is demo details for a particular product"
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "category": "Food",
+    "name": "KAPTIR 2.0 SHOES",
+    "subtext": "2 kg",
+    "price": 138,
+    "stock": 19,
+    "ratings": 3,
+    "ratingsCount": 4372,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0846e90b15144861b33dacf500e3cfd1_9366/Kaptir_2.0_Shoes_White_H00276_01_standard.jpg",
+    "shipping": 19,
+    "quantity": 3,
+    "details": "This is demo details for a particular product"
+  }
+]
