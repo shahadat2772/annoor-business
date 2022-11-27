@@ -9,6 +9,7 @@ const PORT = 5000 || process.env.PORT;
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
+const path = require("path");
 
 // Middleware
 app.use(express.json());
@@ -30,11 +31,11 @@ async function run() {
       .db("annoor-business")
       .collection("users-collection");
 
-    app.get("/", async (req, res) => {
+    app.get("/api", async (req, res) => {
       res.send("Hello there!");
     });
 
-    app.put("/backend/token", async (req, res) => {
+    app.put("/api/token", async (req, res) => {
       const userInfo = req.body;
       const doc = {
         $set: userInfo,
@@ -49,6 +50,19 @@ async function run() {
       });
 
       res.send({ accessToken });
+    });
+
+    app.use(express.static(path.join(__dirname, "../annoor-client/build")));
+
+    app.get("*", function (_, res) {
+      res.sendFile(
+        path.join(__dirname, "../annoor-client/build/index.html"),
+        function (err) {
+          if (err) {
+            res.status(500).send(err);
+          }
+        }
+      );
     });
   } finally {
     // await client.close();
